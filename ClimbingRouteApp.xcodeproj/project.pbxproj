@@ -11,6 +11,7 @@
 		3D21DBBE26038299007F99B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D21DBBD26038299007F99B8 /* ContentView.swift */; };
 		3D21DBC02603829D007F99B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D21DBBF2603829D007F99B8 /* Assets.xcassets */; };
 		3D21DBC32603829D007F99B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D21DBC22603829D007F99B8 /* Preview Assets.xcassets */; };
+		3D21DBD026038412007F99B8 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D21DBCF26038412007F99B8 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		3D21DBBF2603829D007F99B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D21DBC22603829D007F99B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3D21DBC42603829D007F99B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D21DBCF26038412007F99B8 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		3D21DBCC26038387007F99B8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3D21DBCF26038412007F99B8 /* Task.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D21DBBE26038299007F99B8 /* ContentView.swift in Sources */,
+				3D21DBD026038412007F99B8 /* Task.swift in Sources */,
 				3D21DBBC26038299007F99B8 /* ClimbingRouteAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
