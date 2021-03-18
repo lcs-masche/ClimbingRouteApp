@@ -53,7 +53,8 @@
 			isa = PBXGroup;
 			children = (
 				3D21DBBB26038299007F99B8 /* ClimbingRouteAppApp.swift */,
-				3D21DBBD26038299007F99B8 /* ContentView.swift */,
+				3D21DBCC26038387007F99B8 /* Model */,
+				3D21DBCB2603836F007F99B8 /* Views */,
 				3D21DBBF2603829D007F99B8 /* Assets.xcassets */,
 				3D21DBC42603829D007F99B8 /* Info.plist */,
 				3D21DBC12603829D007F99B8 /* Preview Content */,
@@ -67,6 +68,21 @@
 				3D21DBC22603829D007F99B8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D21DBCB2603836F007F99B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D21DBBD26038299007F99B8 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D21DBCC26038387007F99B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
