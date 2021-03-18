@@ -12,6 +12,8 @@
 		3D21DBC02603829D007F99B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D21DBBF2603829D007F99B8 /* Assets.xcassets */; };
 		3D21DBC32603829D007F99B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D21DBC22603829D007F99B8 /* Preview Assets.xcassets */; };
 		3D21DBD026038412007F99B8 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D21DBCF26038412007F99B8 /* Task.swift */; };
+		3D21DBD3260384DA007F99B8 /* TaskPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D21DBD2260384DA007F99B8 /* TaskPriority.swift */; };
+		3D21DBD626038553007F99B8 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D21DBD526038553007F99B8 /* TaskStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3D21DBC22603829D007F99B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3D21DBC42603829D007F99B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D21DBCF26038412007F99B8 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		3D21DBD2260384DA007F99B8 /* TaskPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPriority.swift; sourceTree = "<group>"; };
+		3D21DBD526038553007F99B8 /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				3D21DBCF26038412007F99B8 /* Task.swift */,
+				3D21DBD2260384DA007F99B8 /* TaskPriority.swift */,
+				3D21DBD526038553007F99B8 /* TaskStore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -157,8 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D21DBD626038553007F99B8 /* TaskStore.swift in Sources */,
 				3D21DBBE26038299007F99B8 /* ContentView.swift in Sources */,
 				3D21DBD026038412007F99B8 /* Task.swift in Sources */,
+				3D21DBD3260384DA007F99B8 /* TaskPriority.swift in Sources */,
 				3D21DBBC26038299007F99B8 /* ClimbingRouteAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

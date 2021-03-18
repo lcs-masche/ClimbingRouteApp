@@ -13,3 +13,9 @@ struct Task: Identifiable {
     var priority: TaskPriority
     var completed: Bool
 }
+
+let testData = [
+    Task(describtion: "Climb most boulders", priority: .high, completed: true),
+    Task(describtion: "Get good marks", priority: .medium, completed: false),
+    Task(describtion: "Be a good student", priority: .low, completed: false),
+]
