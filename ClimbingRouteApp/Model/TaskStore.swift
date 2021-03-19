@@ -15,3 +15,4 @@ class TaskStore: ObservableObject {
     }
 }
 
+let testStore = TaskStore(tasks: testData)
