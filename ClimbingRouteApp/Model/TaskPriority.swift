@@ -8,7 +8,10 @@
 import Foundation
 
 enum TaskPriority {
-    case high
-    case medium
-    case low
+    case yellow
+    case green
+    case blue
+    case red
+    case black
+    case custom
 }
