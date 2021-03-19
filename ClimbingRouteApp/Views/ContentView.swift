@@ -11,6 +11,7 @@ struct ContentView: View {
     
     @ObservedObject var store: TaskStore
     
+    
     var body: some View {
         List(store.tasks) { task in
             TaskCell(task: task)
