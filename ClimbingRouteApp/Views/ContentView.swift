@@ -15,14 +15,15 @@ struct ContentView: View {
     var body: some View {
         List(store.tasks) { task in
             TaskCell(task: task)
-            
-            
         }
+        .navigationTitle("Boulders")
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(store: testStore)
+        NavigationView {
+            ContentView(store: testStore)
+        }
     }
 }
