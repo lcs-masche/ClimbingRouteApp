@@ -13,6 +13,8 @@ struct TaskCell: View {
     
     var taskColor: Color {
         switch task.priority {
+        case .white:
+            return Color.primary
         case .yellow:
             return Color.yellow
         case .green:
@@ -29,17 +31,37 @@ struct TaskCell: View {
     }
     
     var body: some View {
-        HStack {
-            Image(systemName: task.completed ? "checkmark.circle.fill" : "circle")
-                .onTapGesture {
+        
+        NavigationLink(destination: Boulder1()) {
+                HStack {
+                    Image(systemName: task.completed ? "checkmark.circle.fill" : "circle")
+                        .onTapGesture {
 
-                    task.completed.toggle()
+                            task.completed.toggle()
 
+                        }
+                    
+                    Text(task.description)
+                        
                 }
-            
-            Text(task.description)
+                .foregroundColor(self.taskColor)
         }
-        .foregroundColor(self.taskColor)
+        
+        NavigationLink(destination: Boulder2()) {
+                HStack {
+                    Image(systemName: task.completed ? "checkmark.circle.fill" : "circle")
+                        .onTapGesture {
+
+                            task.completed.toggle()
+
+                        }
+                    
+                    Text(task.description)
+                        
+                }
+                .foregroundColor(self.taskColor)
+        }
+
     }
 }
 
