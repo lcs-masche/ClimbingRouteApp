@@ -32,21 +32,6 @@ struct TaskCell: View {
     
     var body: some View {
         
-        NavigationLink(destination: Boulder1()) {
-                HStack {
-                    Image(systemName: task.completed ? "checkmark.circle.fill" : "circle")
-                        .onTapGesture {
-
-                            task.completed.toggle()
-
-                        }
-                    
-                    Text(task.description)
-                        
-                }
-                .foregroundColor(self.taskColor)
-        }
-        
         NavigationLink(destination: Boulder2()) {
                 HStack {
                     Image(systemName: task.completed ? "checkmark.circle.fill" : "circle")
@@ -61,7 +46,7 @@ struct TaskCell: View {
                 }
                 .foregroundColor(self.taskColor)
         }
-
+        
     }
 }
 

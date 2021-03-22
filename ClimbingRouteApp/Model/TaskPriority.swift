@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum TaskPriority {
+enum TaskPriority: String, Decodable {
     case white
     case yellow
     case green
